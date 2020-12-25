@@ -10,5 +10,5 @@
 <li>docker-compose</li>
 </ul>
 <p>
-It's easy way to realize how to set up an enviroment using your files (.sql) to create a connection with you applications setup
+It's easy way to realize how to set up an enviroment and using your files (.sql) to create a connection with your applications
 <p>
