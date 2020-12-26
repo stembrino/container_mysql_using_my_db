@@ -19,8 +19,8 @@ Fill the env variables in mysql.env and run:<b> docker-compose up</b>
 To execute database commands (mysql) into your database container. Get the name of container, run: <b>docker ps</b>
 </p>
 <p>
-Run the command to get navigate inside of the container: <b>docker exec -it <CONTAINER ID/NAME> bash </b>
+  Run the command to get navigate inside of the container: <b>docker exec -it <u>CONTAINER ID/NAME</u> bash </b>
 </p>
 <p>
-Run the command: <b>mysql -u <UDER NAME> -p</b>
+  Run the command: <b>mysql -u <u>USER NAME</u> -p</b>
 </p>
