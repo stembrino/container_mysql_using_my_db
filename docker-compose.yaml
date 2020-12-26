@@ -6,10 +6,7 @@ services:
     restart: always
     ports:
       - 3306:3306
-    environment:
-      MYSQL_ROOT_PASSWORD: <root password>
-      MYSQL_USER: <user name>
-      MYSQL_PASSWORD: <password>
-      MYSQL_DATABASE: full-stack-ecommerce
+    env_file:
+      - ./env/mysql.env
     volumes:
       - ./:/docker-entrypoint-initdb.d
