@@ -15,3 +15,12 @@ It's easy way to realize how to set up an enviroment and using your files (.sql)
 <p>
 Fill the env variables in mysql.env and run:<b> docker-compose up</b>
 </p>
+<p>
+To execute database commands (mysql) into your database container. Get the name of container, run: <b>docker ps</b>
+</p>
+<p>
+Run the command to get navigate inside of the container: <b>docker exec -it <CONTAINER ID/NAME> bash </b>
+</p>
+<p>
+Run the command: <b>mysql -u <UDER NAME> -p</b>
+</p>
